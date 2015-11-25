@@ -1,0 +1,27 @@
+{
+  "name": "film",
+  "version": "1.0.0",
+  "description": "retrieving film data from a third party api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthembow/project1.git"
+  },
+  "keywords": [
+    "film",
+    "api"
+  ],
+  "author": "Wendy Mthembo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthembow/project1/issues"
+  },
+  "homepage": "https://github.com/mthembow/project1#readme",
+  "dependencies": {
+    "request": "^2.65.0",
+    "restify": "^4.0.3"
+  }
+}
