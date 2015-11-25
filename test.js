@@ -16,11 +16,11 @@ exports.search = function(query, callback) {
     console.log(typeof body)
     const json = JSON.parse(body)
     console.log(json)
-    const films = json.Search.map(function(element) {
-      return {'Title': element.Title, 'Year': element.Year,'imdbID': element.imdbID,'Type': element.Type,'Poster': element.Poster}
+   /* const films = json.search.map(function(element) {
+      return {title: element.Title}
     })
     console.log(films)
-    
+    */
     films = typeof
     
     
