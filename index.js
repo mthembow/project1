@@ -4,7 +4,7 @@ var fs = require('fs')
 
 var restify = require('restify')
 var server = restify.createServer()
-
+// var mongo = require('./mongo.js') 
 server.use(restify.fullResponse())
 server.use(restify.queryParser())
 server.use(restify.bodyParser())

@@ -17,7 +17,7 @@ exports.search = function(query, callback) {
     const json = JSON.parse(body)
     console.log(json)
     const films = json.Search.map(function(element) {
-      return {'Title': element.Title, 'Year': element.Year,'imdbID': element.imdbID,'Type': element.Type,'Poster': element.Poster}
+      return {'Title': element.Title, 'Year': element.Year,'imdbID': element.imdbID,'Type': element.type,'Poster': element.Poster}
     })
     console.log(films)
     
